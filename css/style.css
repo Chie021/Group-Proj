@@ -241,10 +241,18 @@ a.nav-link {
 }
 
 .box {
-    width: 50px;
+    width: 60px;
     height: 50px;
     background-color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.dajwh {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 22rem;
+    height: 25rem;
 }
