@@ -3,43 +3,366 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">    
     <title>Navalla - Jewelry Store</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Island+Moments&display=swap" rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Island+Moments&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
+<header class="z-50 w-full absolute top-0">
+	<!--begin::Notification-->
+	<div class="notification background-dark">
+		<div class="container-fluid d-flex justify-content-center">
+			<span class="notification-text">
+				<i class="fa-solid fa-tag"></i>
+				15% off storewide — Limited time! 
+			</span>
+			<!--Begin::Shop Now Button-->
+			<div class="shopnow ">
+				<a class="shopnow-text" href="">
+					<span>Show Now</span>
+					<i class="fa-solid fa-arrow-right"></i>
+				</a>
+			</div>
+			<!--end::Shop Now Button-->
+		</div>
+	</div>
+	<!--end::Notification-->
+	<!--begin::Main Menu-->
+	<nav class="navbar navbar-expand-lg background-dark">
+		<div class="container d-flex justify-content-center">
+			<!--begin::Brand_Item-->
+			<a class="navbar-brand text-white fs-3" href="#">Navalla</a>
+			<!--end::Brand_Item-->
+			<!--begin::Main Item-->
+			<div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+				<ul class="navbar-nav">
+					<li class="nav-item m-2"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
+					<li class="nav-item m-2"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Shop</a></li>
+					<li class="nav-item m-2"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Products</a></li>
+					<li class="nav-item m-2"><a class="nav-link" href="">Contact Us</a></li>
+				</ul>
+			</div>
+			<!--end::Main Item-->
+			<!--begin::navbar tool-->
+			<div class="navbar-nav  d-flex align-items-center">
+				<div class="p-2">
+					<span class="color-E8ECEF"><i class="fa-solid fa-magnifying-glass"></i></span>
+				</div>
+				<div class="p-2">
+					<span class="color-E8ECEF"><i class="fa-regular fa-user"></i></span>
+				</div>
+				<div class="p-2">
+					<span class="color-E8ECEF"><i class="fa-solid fa-bag-shopping"></i></span>
+				</div>
+				<div class="p-2">
+					<span class="badge rounded-pill text-bg-light">2</span>
+				</div>
+			</div>
+			<!--begin::navbar tool-->
+		</div>
+	</nav>
+	<!--begin::Main Menu-->
+</header>
 
-<div class="header">
-    <div class="container">
-        <div class="navbar">
-            <div class="logo">
-                <img src="Navalla.PNG" width="105px">
-            </div>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Shop</a></li>
-                <li><a href="">Products</a></li>
-                <li><a href="">Contact Us</a></li>
-            </ul>
-        </nav>
-        <img src="search.PNG" width="30px" height="30px">
-    <div class="row">
-        <div class="col-2">
-            <h1 style="font-family: Island Moment;">Elegance,<br> Adorned.</h1>
-            <p>"Discover accessories that seamlessly blend<br>fashion and function to elevate your look
-            </p>
-            <a href="" class="btn">Shop Now</a>
-    </div>
-        <div class="col-2">
-            <img src="big diamond.jpg"> 
-        </div>
-    </div>
-</div>
+<!--begin::main-content-->
+<main>
+	<!--Begin::Header content-->
+	<section class="w-100">
+			<!--begin::content header image-->
+			<div class="navalla-container">
+				<img src="./media/sabrinna-ringquist-AhIQL2CKq7g-unsplash.jpg" alt="">
+				<div class="navalla-content container-fluid pl-10rem d-flex justify-content-center align-items-center">
+					<div class="col">
+						<h1 class="header-text">Elegance, Adorned.</h1>
+						<p class="sub-text">"Discover accessories that seamlessly blend fashion and function to elevate your look."</p>
+						<button class="btn btn-lg btn-black">Shopping Now</button>
+					</div>
+				</div>
+			</div>
+			<!--end::content header image-->
+	</section>
+	<!--end::Header content-->
+	<!--Begin::new arrival Section-->
+	<section>
+		<div class="card border-0">
+			<div class="card-header border-0">
+				<div class="container p-3 d-flex justify-content-between">
+					<h2 class="margin-left-5rem">New Arrivals</h2>
+					<button  class="btn btn-outline-dark">All Products</button>
+				</div>
+			</div>
+			<div class="card-body">
+				<div class="container-fluid flex-wrap d-flex align-items-center justify-content-center gap-3 p-2">
+					<div class="card border-0 custom-card grid" style="width: 16rem;">
+						<img class="card-img-top card-product " src="./media/image-product.png" alt="" srcset="">
+						<div class="card-body">
+							<div class="rate d-flex">
+								<div class="star">&#9733;</div>
+								<div class="star">&#9733;</div>
+								<div class="star">&#9733;</div>
+								<div class="star">&#9733;</div>
+								<div class="star">&#9733;</div>
+							</div>
+							<h5 class="card-title">Lorem Ipsum</h5>
+							<p class="card-text">$299.99</p>
+						</div>
+					</div>
+					<div class="card border-0 custom-card" style="width: 16rem;">
+						<img class="card-img-top card-product " src="./media/image-product.png" alt="" srcset="">
+						<div class="card-body">
+							<div class="rate d-flex">
+								<div class="star">&#9733;</div>
+								<div class="star">&#9733;</div>
+								<div class="star">&#9733;</div>
+								<div class="star">&#9733;</div>
+								<div class="star">&#9733;</div>
+							</div>
+							<h5 class="card-title">Lorem Ipsum</h5>
+							<p class="card-text">$299.99</p>
+						</div>
+					</div>
+					<div class="card border-0 custom-card" style="width: 16rem;">
+						<img class="card-img-top card-product " src="./media/image-product.png" alt="" srcset="">
+						<div class="card-body">
+							<div class="rate d-flex">
+								<div class="star">&#9733;</div>
+								<div class="star">&#9733;</div>
+								<div class="star">&#9733;</div>
+								<div class="star">&#9733;</div>
+								<div class="star">&#9733;</div>
+							</div>
+							<h5 class="card-title">Lorem Ipsum</h5>
+							<p class="card-text">$299.99</p>
+						</div>
+					</div>
+					<div class="card border-0 custom-card" style="width: 16rem;">
+						<img class="card-img-top card-product " src="./media/image-product.png" alt="" srcset="">
+						<div class="card-body">
+							<div class="rate d-flex">
+								<div class="star">&#9733;</div>
+								<div class="star">&#9733;</div>
+								<div class="star">&#9733;</div>
+								<div class="star">&#9733;</div>
+								<div class="star">&#9733;</div>
+							</div>
+							<h5 class="card-title">Lorem Ipsum</h5>
+							<p class="card-text">$299.99</p>
+						</div>
+					</div>
+					<div class="card border-0 custom-card" style="width: 16rem;">
+						<img class="card-img-top card-product " src="./media/image-product.png" alt="" srcset="">
+						<div class="card-body">
+							<div class="rate d-flex">
+								<div class="star">&#9733;</div>
+								<div class="star">&#9733;</div>
+								<div class="star">&#9733;</div>
+								<div class="star">&#9733;</div>
+								<div class="star">&#9733;</div>
+							</div>
+							<h5 class="card-title">Lorem Ipsum</h5>
+							<p class="card-text">$299.99</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--end::new arrival Section-->
+	<section>
+		<div class="card border-0">
+			<div class="card-header border-0">
+				<div class="container p-3 d-flex justify-content-between">
+					<h2 class="margin-left-5rem">Shop Collection</h2>
+				</div>
+			</div>
+			<div class="card-body m-auto">
+				<div class="container d-flex gap-2rem">
+					<div class="w-70 position-relative">
+						<img class="shadow-1-strong rounded img-lg object-fit-cover" src="./media/image-product.png" alt="" srcset="">
+						<div class="necklace-collection-content">
+							<div class="necklace-collection-header">
+								<div class="necklace-collection-title">Necklace</div>
+							</div>
+							<div class="necklace-collection-body">
+								<div class="necklace-collection-text">Collection</div>
+								<div class="necklace-collection-icon"><i class="fa-solid fa-arrow-right"></i></div>
+							</div>
+						</div>
+					</div>
+					<div class="d-flex flex-wrap flex-column gap-2rem">
+						<div class="w-30 position-relative">
+							<img class="shadow-1-strong rounded img-sm object-fit-cover" src="./media/image-product.png" alt="" srcset="">
+							<div class="ring-collection-content">
+								<div class="ring-collection-header">
+									<div class="ring-collection-title">Ring</div>
+								</div>
+								<div class="ring-collection-body">
+									<div class="ring-collection-text">Collection</div>
+									<span class="ring-collection-icon"><i class="fa-solid fa-arrow-right"></i></span>
+								</div>
+							</div>
+						</div>
+						<div class="w-30 position-relative">
+							<img class="shadow-1-strong rounded img-sm object-fit-cover" src="./media/image-product.png" alt="" srcset="">
+							<div class="earring-collection-content">
+								<div class="earring-collection-header">
+									<div class="earring-collection-title">Earring</div>
+								</div>
+								<div class="earring-collection-body">
+									<div class="earring-collection-text">Collection</div>
+									<span class="earring-collection-icon"><i class="fa-solid fa-arrow-right"></i></span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+	<section>
+		<div class="card border-0">
+			<div class="border-0 background-none">
+				<div class="container-lg p-3  d-flex justify-content-between">
+					<h2 class="margin-left-5rem">Best Seller</h2>
+				</div>
+			</div>
+			<div class="card-body">
+				<div class="container p-2 d-flex align-items-center justify-content-center gap-3">
+					<div class="card border-0 custom-card grid" style="width: 16rem;">
+						<img class="card-img-top card-product " src="./media/image-product.png" alt="" srcset="">
+						<div class="card-body">
+							<div class="rate d-flex">
+								<div class="star">&#9733;</div>
+								<div class="star">&#9733;</div>
+								<div class="star">&#9733;</div>
+								<div class="star">&#9733;</div>
+								<div class="star">&#9733;</div>
+							</div>
+							<h5 class="card-title">Lorem Ipsum</h5>
+							<p class="card-text">$299.99</p>
+						</div>
+					</div>
+					<div class="card border-0 custom-card" style="width: 16rem;">
+						<img class="card-img-top card-product " src="./media/image-product.png" alt="" srcset="">
+						<div class="card-body">
+							<div class="rate d-flex">
+								<div class="star">&#9733;</div>
+								<div class="star">&#9733;</div>
+								<div class="star">&#9733;</div>
+								<div class="star">&#9733;</div>
+								<div class="star">&#9733;</div>
+							</div>
+							<h5 class="card-title">Lorem Ipsum</h5>
+							<p class="card-text">$299.99</p>
+						</div>
+					</div>
+					<div class="card border-0 custom-card" style="width: 16rem;">
+						<img class="card-img-top card-product " src="./media/image-product.png" alt="" srcset="">
+						<div class="card-body">
+							<div class="rate d-flex">
+								<div class="star">&#9733;</div>
+								<div class="star">&#9733;</div>
+								<div class="star">&#9733;</div>
+								<div class="star">&#9733;</div>
+								<div class="star">&#9733;</div>
+							</div>
+							<h5 class="card-title">Lorem Ipsum</h5>
+							<p class="card-text">$299.99</p>
+						</div>
+					</div>
+					<div class="card border-0 custom-card" style="width: 16rem;">
+						<img class="card-img-top card-product " src="./media/image-product.png" alt="" srcset="">
+						<div class="card-body">
+							<div class="rate d-flex">
+								<div class="star">&#9733;</div>
+								<div class="star">&#9733;</div>
+								<div class="star">&#9733;</div>
+								<div class="star">&#9733;</div>
+								<div class="star">&#9733;</div>
+							</div>
+							<h5 class="card-title">Lorem Ipsum</h5>
+							<p class="card-text">$299.99</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<div class="banner container">
+		
+	</div>
+</main>
+
+<footer>
+	<div class="footer">
+		<nav class="navbar navbar-expand-lg">
+			<div class="container">
+			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#">Navalla</a>
+						</li>
+						<div class="border"></div>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Jewelry Store</a>
+						</li>
+					</ul>
+					<ul class="navbar-nav">
+						<li class="nav-item p-2">
+							<a class="nav-link active" aria-current="page" href="#">Home</a>
+						</li>
+						<li class="nav-item p-2">
+							<a class="nav-link" href="#">Shop</a>
+						</li>
+						<li class="nav-item p-2">
+							<a class="nav-link" href="#">Product</a>
+						</li>
+						<li class="nav-item p-2">
+							<a class="nav-link" href="#">Contact Us</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<nav class="navbar navbar-expand-lg">
+			<div class="container">
+			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#">Copyright © 2023 Navalla. All rights reserved</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Privacy Policy</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Terms of Use</a>
+						</li>
+					</ul>
+					<ul class="navbar-nav">
+						<li class="nav-item p-2">
+							<a class="nav-link active" aria-current="page" href="#"><i class="fa-brands fa-instagram"></i></a>
+						</li>
+						<li class="nav-item p-2">
+							<a class="nav-link" href="#"><i class="fa-brands fa-facebook"></i></a>
+						</li>
+						<li class="nav-item p-2">
+							<a class="nav-link" href="#"><i class="fa-brands fa-youtube"></i></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</div>
+</footer>
+
+
+<!--end::main-content-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/1d413b75bc.js" crossorigin="anonymous"></script>
 </body>
+
 </html>

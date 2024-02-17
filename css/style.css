@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* color: white; */
+}
+h1{
+    font-family: 'Island Moments', cursive;
+}
+
+.background-dark{ 
+    background: #141718;
+}
+.color-E8ECEF {
+    color: #E8ECEF !important;
+}
+a.nav-link {
+    color: #d1d1d1;
+}
+
+.nav-link.active {
+    color: white !important;
+}
+
+.nav-link:focus, .nav-link:hover {
+    color: white !important;
+}
+
+.notification {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x);
+}
+
+.notification-text {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: white;
+}
+.shopnow {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.shopnow-text {
+    border-bottom: 1px solid #FFAB00;
+    color: #FFAB00;
+    text-decoration: none;
+}
+
+
+.navalla-container {
+    position: relative;
+    width: 100%;
+    background-color: #0000001f;
+}
+
+.navalla-container img{
+    position: absolute;
+    width: 100%;
+    height: 90vh;
+    object-fit: fill;
+    z-index: -1;
+}
+
+.header-text{
+    font-size: 140px;
+}
+
+.sub-text{
+    font-size: 18px;
+}
+
+.navalla-content {
+    height: 90vh;
+}
+
+.btn-black {
+    background-color: black !important;
+    color: white !important;
+
+}
+
+.star {
+    content: '&#11088;';
+}
+
+.margin-left-5rem {
+    margin-left: 5rem;
+}
+
+.card-product {
+    width: 262px;
+    height: 349px;
+    object-fit: cover;
+}
+
+.footer {
+    height: 10rem;
+    background-color: #141718;
+}
+
+.tl-90-10 {
+    top: 90%;
+    left: 10%;
+}
+
+.tl-80-10 {
+    top: 80%;
+    left: 10%;
+}
+.tl-60-10 {
+    top: 60%;
+    left: 10%;
+}
+
+.background-none {
+    background-color: none !important;
+}
+
+.pl-10rem {
+    padding-left: 10rem !important;
+}
+.img-lg {
+    width: 548px;
+    height: 664px;
+}
+.img-sm {
+    width: 548px;
+    height: 319px;
+}
+
+.gap-2rem {
+    gap: 2rem;
+}
+
+
+.necklace-collection-content {
+    position: absolute;
+    top: 85%;
+    left: 5%;
+}
+
+.necklace-collection-content .necklace-collection-header {
+
+}
+
+.necklace-collection-content .necklace-collection-header .necklace-collection-title{
+    font-size: 34px;
+    font-family: "Poppins", sans-serif;
+}
+
+.necklace-collection-content .necklace-collection-body {
+    display: flex;
+    align-items: center;
+}
+
+.necklace-collection-content .necklace-collection-body .necklace-collection-text{
+    
+}
+
+.necklace-collection-content .necklace-collection-body .necklace-collection-icon{
+    margin-left: 8px;
+}
+
+
+.ring-collection-content {
+    position: absolute;
+    top: 70%;
+    left: 5%;
+}
+
+.ring-collection-content .ring-collection-header {
+
+}
+
+.ring-collection-content .ring-collection-header .ring-collection-title{
+    font-size: 34px;
+    font-family: "Poppins", sans-serif;
+}
+
+.ring-collection-content .ring-collection-body {
+    display: flex;
+    align-items: center;
+}
+
+.ring-collection-content .ring-collection-body .ring-collection-text{
+    
+}
+
+.ring-collection-content .ring-collection-body .ring-collection-icon{
+    margin-left: 8px;
+}
+
+.earring-collection-content {
+    position: absolute;
+    top: 70%;
+    left: 5%;
+}
+
+.earring-collection-content .earring-collection-header {
+
+}
+
+.earring-collection-content .earring-collection-header .earring-collection-title{
+    font-size: 34px;
+    font-family: "Poppins", sans-serif;
+}
+
+.earring-collection-content .earring-collection-body {
+    display: flex;
+    align-items: center;
+}
+
+.earring-collection-content .earring-collection-body .earring-collection-text{
+    
+}
+
+.earring-collection-content .earring-collection-body .earring-collection-icon{
+    margin-left: 8px;
+}
