@@ -88,6 +88,10 @@ a.nav-link {
     content: '&#11088;';
 }
 
+.margin-left-5rem {
+    margin-left: 5rem;
+}
+
 .card-product {
     width: 262px;
     height: 349px;
@@ -97,23 +101,6 @@ a.nav-link {
 .footer {
     height: 10rem;
     background-color: #141718;
-}
-
-
-.left {
-    display: flex;
-    width: 548px;
-    height: 664px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex-shrink: 0;
-}
-
-.img-sm {
-    width: 548px;
-    height: 319px;
-    flex-shrink: 0;
 }
 
 .tl-90-10 {
@@ -132,4 +119,106 @@ a.nav-link {
 
 .background-none {
     background-color: none !important;
+}
+
+.pl-10rem {
+    padding-left: 10rem !important;
+}
+.img-lg {
+    width: 548px;
+    height: 664px;
+}
+.img-sm {
+    width: 548px;
+    height: 319px;
+}
+
+.gap-2rem {
+    gap: 2rem;
+}
+
+
+.necklace-collection-content {
+    position: absolute;
+    top: 85%;
+    left: 5%;
+}
+
+.necklace-collection-content .necklace-collection-header {
+
+}
+
+.necklace-collection-content .necklace-collection-header .necklace-collection-title{
+    font-size: 34px;
+    font-family: "Poppins", sans-serif;
+}
+
+.necklace-collection-content .necklace-collection-body {
+    display: flex;
+    align-items: center;
+}
+
+.necklace-collection-content .necklace-collection-body .necklace-collection-text{
+    
+}
+
+.necklace-collection-content .necklace-collection-body .necklace-collection-icon{
+    margin-left: 8px;
+}
+
+
+.ring-collection-content {
+    position: absolute;
+    top: 70%;
+    left: 5%;
+}
+
+.ring-collection-content .ring-collection-header {
+
+}
+
+.ring-collection-content .ring-collection-header .ring-collection-title{
+    font-size: 34px;
+    font-family: "Poppins", sans-serif;
+}
+
+.ring-collection-content .ring-collection-body {
+    display: flex;
+    align-items: center;
+}
+
+.ring-collection-content .ring-collection-body .ring-collection-text{
+    
+}
+
+.ring-collection-content .ring-collection-body .ring-collection-icon{
+    margin-left: 8px;
+}
+
+.earring-collection-content {
+    position: absolute;
+    top: 70%;
+    left: 5%;
+}
+
+.earring-collection-content .earring-collection-header {
+
+}
+
+.earring-collection-content .earring-collection-header .earring-collection-title{
+    font-size: 34px;
+    font-family: "Poppins", sans-serif;
+}
+
+.earring-collection-content .earring-collection-body {
+    display: flex;
+    align-items: center;
+}
+
+.earring-collection-content .earring-collection-body .earring-collection-text{
+    
+}
+
+.earring-collection-content .earring-collection-body .earring-collection-icon{
+    margin-left: 8px;
 }

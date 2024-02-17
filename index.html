@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Island+Moments&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
 <header class="z-50 w-full absolute top-0">
@@ -46,7 +47,7 @@
 			</div>
 			<!--end::Main Item-->
 			<!--begin::navbar tool-->
-			<div class="navbar-nav">
+			<div class="navbar-nav  d-flex align-items-center">
 				<div class="p-2">
 					<span class="color-E8ECEF"><i class="fa-solid fa-magnifying-glass"></i></span>
 				</div>
@@ -68,11 +69,12 @@
 
 <!--begin::main-content-->
 <main>
+	<!--Begin::Header content-->
 	<section class="w-100">
 			<!--begin::content header image-->
 			<div class="navalla-container">
-				<img src="./media/big-diamond.jpg" alt="">
-				<div class="navalla-content container d-flex justify-content-center align-items-center">
+				<img src="./media/sabrinna-ringquist-AhIQL2CKq7g-unsplash.jpg" alt="">
+				<div class="navalla-content container-fluid pl-10rem d-flex justify-content-center align-items-center">
 					<div class="col">
 						<h1 class="header-text">Elegance, Adorned.</h1>
 						<p class="sub-text">"Discover accessories that seamlessly blend fashion and function to elevate your look."</p>
@@ -82,17 +84,18 @@
 			</div>
 			<!--end::content header image-->
 	</section>
-
+	<!--end::Header content-->
+	<!--Begin::new arrival Section-->
 	<section>
 		<div class="card border-0">
 			<div class="card-header border-0">
 				<div class="container p-3 d-flex justify-content-between">
-					<h2>New Arrivals</h2>
+					<h2 class="margin-left-5rem">New Arrivals</h2>
 					<button  class="btn btn-outline-dark">All Products</button>
 				</div>
 			</div>
 			<div class="card-body">
-				<div class="container d-flex align-items-center gap-3 p-2">
+				<div class="container-fluid flex-wrap d-flex align-items-center justify-content-center gap-3 p-2">
 					<div class="card border-0 custom-card grid" style="width: 16rem;">
 						<img class="card-img-top card-product " src="./media/image-product.png" alt="" srcset="">
 						<div class="card-body">
@@ -166,46 +169,52 @@
 				</div>
 			</div>
 		</div>
-
-
 	</section>
-
+	<!--end::new arrival Section-->
 	<section>
 		<div class="card border-0">
 			<div class="card-header border-0">
 				<div class="container p-3 d-flex justify-content-between">
-					<h2>Shop Collection</h2>
+					<h2 class="margin-left-5rem">Shop Collection</h2>
 				</div>
 			</div>
-			<div class="card-body">
-				<div class="container">
-					<div class="row">
-						<div class="col ">
-							<div class="position-relative">
-								<img class="w-100 shadow-1-strong rounded mb-4 left" src="./media/image-product.png" alt="" srcset="">
-								<span class="text-dark position-absolute tl-80-10 fs-2">Necklace</span>
-								<span class="text-dark position-absolute tl-90-10 border-bottom">
-									Collection
-									<i class="fa-solid fa-arrow-right"></i>
-								</span>
+			<div class="card-body m-auto">
+				<div class="container d-flex gap-2rem">
+					<div class="w-70 position-relative">
+						<img class="shadow-1-strong rounded img-lg object-fit-cover" src="./media/image-product.png" alt="" srcset="">
+						<div class="necklace-collection-content">
+							<div class="necklace-collection-header">
+								<div class="necklace-collection-title">Necklace</div>
+							</div>
+							<div class="necklace-collection-body">
+								<div class="necklace-collection-text">Collection</div>
+								<div class="necklace-collection-icon"><i class="fa-solid fa-arrow-right"></i></div>
 							</div>
 						</div>
-						<div class="col">
-							<div class="position-relative">
-								<img class="w-100 shadow-1-strong rounded mb-4 img-sm left" src="./media/image-product.png" alt="" srcset="">
-								<span class="text-dark position-absolute tl-60-10 fs-2">Necklace</span>
-								<span class="text-dark position-absolute tl-80-10 border-bottom">
-									Collection
-									<i class="fa-solid fa-arrow-right"></i>
-								</span>
+					</div>
+					<div class="d-flex flex-wrap flex-column gap-2rem">
+						<div class="w-30 position-relative">
+							<img class="shadow-1-strong rounded img-sm object-fit-cover" src="./media/image-product.png" alt="" srcset="">
+							<div class="ring-collection-content">
+								<div class="ring-collection-header">
+									<div class="ring-collection-title">Ring</div>
+								</div>
+								<div class="ring-collection-body">
+									<div class="ring-collection-text">Collection</div>
+									<span class="ring-collection-icon"><i class="fa-solid fa-arrow-right"></i></span>
+								</div>
 							</div>
-							<div class="position-relative">
-								<img class="w-100 shadow-1-strong rounded mb-4 img-sm left" src="./media/image-product.png" alt="" srcset="">
-								<span class="text-dark position-absolute tl-60-10 fs-2">Necklace</span>
-								<span class="text-dark position-absolute tl-80-10 border-bottom">
-									Collection
-									<i class="fa-solid fa-arrow-right"></i>
-								</span>
+						</div>
+						<div class="w-30 position-relative">
+							<img class="shadow-1-strong rounded img-sm object-fit-cover" src="./media/image-product.png" alt="" srcset="">
+							<div class="earring-collection-content">
+								<div class="earring-collection-header">
+									<div class="earring-collection-title">Earring</div>
+								</div>
+								<div class="earring-collection-body">
+									<div class="earring-collection-text">Collection</div>
+									<span class="earring-collection-icon"><i class="fa-solid fa-arrow-right"></i></span>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -217,27 +226,13 @@
 	<section>
 		<div class="card border-0">
 			<div class="border-0 background-none">
-				<div class="container p-3 d-flex justify-content-between">
-					<h2>Best Seller</h2>
+				<div class="container-lg p-3  d-flex justify-content-between">
+					<h2 class="margin-left-5rem">Best Seller</h2>
 				</div>
 			</div>
 			<div class="card-body">
-				<div class="container d-flex align-items-center gap-3 p-2">
+				<div class="container p-2 d-flex align-items-center justify-content-center gap-3">
 					<div class="card border-0 custom-card grid" style="width: 16rem;">
-						<img class="card-img-top card-product " src="./media/image-product.png" alt="" srcset="">
-						<div class="card-body">
-							<div class="rate d-flex">
-								<div class="star">&#9733;</div>
-								<div class="star">&#9733;</div>
-								<div class="star">&#9733;</div>
-								<div class="star">&#9733;</div>
-								<div class="star">&#9733;</div>
-							</div>
-							<h5 class="card-title">Lorem Ipsum</h5>
-							<p class="card-text">$299.99</p>
-						</div>
-					</div>
-					<div class="card border-0 custom-card" style="width: 16rem;">
 						<img class="card-img-top card-product " src="./media/image-product.png" alt="" srcset="">
 						<div class="card-body">
 							<div class="rate d-flex">
@@ -363,6 +358,8 @@
 		</nav>
 	</div>
 </footer>
+
+
 <!--end::main-content-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 <script src="https://kit.fontawesome.com/1d413b75bc.js" crossorigin="anonymous"></script>
